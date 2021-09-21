@@ -1,4 +1,5 @@
 package clases_y_objetos;
+
 public class TestPersona {
   public static void main(String[] args) {
     Persona persona1; // 1) Declaro la variable persona1 de tipo Persona

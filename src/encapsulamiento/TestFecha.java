@@ -7,10 +7,15 @@ public class TestFecha {
     // miObjFecha.dia = 30;
     // miObjFecha.mes = 20;
     // miObjFecha.anio = -2;
-  }
 
-  // Ahora los atributos ya no son más públicos, sino que se hace un tipo de condiciones para su lectura y escritura.
+    // Ahora los atributos ya no son más públicos, sino que se hace un tipo de
+    // condiciones para su lectura y escritura.
     miObjFecha.setDia(30);
     miObjFecha.setMes(20);
     miObjFecha.setAnio(-1);
+
+    System.out.println();
+    System.out.println("Dia: "+miObjFecha.getDia()+", mes: "+miObjFecha.getMes()+", año:"+miObjFecha.getAnio());
+  }
+
 }
