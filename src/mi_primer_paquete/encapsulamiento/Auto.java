@@ -1,22 +1,9 @@
-package constructores;
+package mi_primer_paquete.encapsulamiento;
 
 public class Auto {
   private String marca;
   private double precio;
   private int anio;
-
-  public Auto() {
-
-  }
-
-  public Auto(String marca) {
-    this.marca = marca;
-  }
-
-  public Auto(String marca, double precio) {
-    this.marca = marca;
-    this.precio = precio;
-  }
 
   public void setMarca(String marca) {
     this.marca = marca;

@@ -1,4 +1,4 @@
-package constructores;
+package mi_primer_paquete.constructores;
 
 public class TestRectangulo {
   public static void main(String[] args) {

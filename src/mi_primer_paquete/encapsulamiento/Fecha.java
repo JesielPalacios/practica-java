@@ -1,4 +1,4 @@
-package encapsulamiento;
+package mi_primer_paquete.encapsulamiento;
 
 public class Fecha {
   // public int dia;

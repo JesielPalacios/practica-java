@@ -1,4 +1,4 @@
-package metodos;
+package mi_primer_paquete.metodos;
 
 public class TestRectangulo {
   public static void main(String[] args) {

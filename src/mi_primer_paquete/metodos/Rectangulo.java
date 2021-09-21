@@ -1,4 +1,4 @@
-package metodos;
+package mi_primer_paquete.metodos;
 
 public class Rectangulo {
   public int base;

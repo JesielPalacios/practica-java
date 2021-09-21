@@ -1,4 +1,4 @@
-package constructores;
+package mi_primer_paquete.conceptos;
 
 public class Rectangulo {
   private int base;

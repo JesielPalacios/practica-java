@@ -1,4 +1,4 @@
-package metodos;
+package mi_primer_paquete.metodos;
 
 public class Calculadora {
   public double sumar(double a, double b) {

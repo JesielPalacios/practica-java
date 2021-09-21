@@ -1,4 +1,4 @@
-package encapsulamiento;
+package mi_primer_paquete.constructores;
 
 public class TestAuto {
   public static void main(String[] args) {
@@ -25,6 +25,13 @@ public class TestAuto {
     System.out.println("marca: " + carro2.getMarca());
     carro2.setMarca("Lamborghini Urus");
     System.out.println("marca: " + carro2.getMarca());
+
+    Auto carro3 = new Auto("Audi", 2_000_000);
+    carro3.setAnio(2015);
+    System.out.println();
+    System.out.println("Auto con marca y año seteados por defecto");
+    System.err.println(
+        "Marca: " + carro3.getMarca() + ", año(modelo): " + carro3.getAnio() + ", precio: " + carro3.getPrecio());
 
   }
 }

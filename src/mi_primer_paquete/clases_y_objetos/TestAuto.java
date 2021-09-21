@@ -1,4 +1,4 @@
-package clases_y_objetos;
+package mi_primer_paquete.clases_y_objetos;
 
 public class TestAuto {
   public static void main(String[] args) {

@@ -1,4 +1,6 @@
-package constructores;
+package com.clearminds.test;
+
+import com.clearminds.entidades.*;
 
 public class TestPersona {
   public static void main(String[] args) {

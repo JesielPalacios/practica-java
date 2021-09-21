@@ -1,4 +1,8 @@
-package metodos;
+package com.clearminds.test;
+
+import com.clearminds.conceptos.*; // Para importar todas las clases del paquete.
+import com.clearminds.entidades.Persona; // Para exportar una clase en específico.
+import com.clearminds.entidades.Usuarios; // Para exportar una clase en específico.
 
 public class TestCalculadora {
   public static void main(String[] args) {
@@ -34,5 +38,8 @@ public class TestCalculadora {
 
     System.out.println();
     miObjetoCalculadora.imprimir();
+
+    Persona miObjPersona;
+    Usuarios miObjUsuario;
   }
 }

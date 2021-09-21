@@ -1,4 +1,4 @@
-package encapsulamiento;
+package mi_primer_paquete.encapsulamiento;
 
 public class TestPersona {
   public static void main(String[] args) {
